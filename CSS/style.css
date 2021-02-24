@@ -437,6 +437,10 @@ h5{
     padding-top: 1%;
 }
 
+.section4 a{
+    text-decoration: none;
+}
+
 .linen{
     color: #EFE6DD;
     font-family: Raleway;
