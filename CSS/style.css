@@ -85,37 +85,48 @@ img[src*="Images/Logo.png"], img[src*="Images/home.png"]{
     display: none;
 }
 
-.outline{
+/* Read More Button Animation */
+.center {
+    position: relative;
+  }
+  
+.outline {
     width: 190px;
     height: 55px;
-    color: #23395B;
-    /* border: 2px solid #23395B;
-    box-sizing: border-box;
-    border-radius: 5px; */
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
     line-height: 30px;
-    background-color: #EFE6DD;
-
-    border: 0 solid;
-    box-shadow: inset 0 0 20px #EFE6DD;
-    outline: 2px solid;
-    /* outline-color: #23395B; */
-    /* outline-offset: 0px; */
-    /* text-shadow: none; */
-    transition: all 300ms cubic-bezier(0.19, 1, 0.22, 1);
-}
-
-.outline:hover{
-    border: 2px solid;
-    /* border-radius: 5px; */
-    box-shadow: inset 0 0 20px #EFE6DD, 0 0 5px #23395B;
-    outline-color: #EFE6DD;
-    outline-offset: 15px;
-}
-
+    color: #23395B;
+    cursor: pointer;
+    background: transparent;
+    border: 2px solid #23395B;
+    outline: none;
+    transition: 1s ease-in-out;
+  }
+  
+svg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    fill: none;
+    stroke: #fff;
+    stroke-dasharray: 150 480;
+    stroke-dashoffset: 150;
+    transition: 1s ease-in-out;
+  }
+  
+.outline:hover {
+    transition: 1s ease-in-out;
+    background: #3D8EBC;
+    color: #EFE6DD;
+  }
+  
+.outline:hover svg {
+    stroke-dashoffset: -480;
+  }
+   
 .social{
     display: flex;
     justify-content: center;
@@ -374,6 +385,7 @@ background-color: #EFE6DD;
     /* outline-offset: 0px; */
     /* text-shadow: none; */
     transition: all 300ms cubic-bezier(0.19, 1, 0.22, 1);
+    cursor: pointer;
 }
 
 .caseStudy:hover{
@@ -476,6 +488,7 @@ h5{
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     color: #EFE6DD;
     border: none;
+    cursor: pointer;
 }
 
 .no-fill{
@@ -483,6 +496,7 @@ h5{
     background: none;
     border: none;
     margin-left: 1%;
+    cursor: pointer;
 }
 
 h6{

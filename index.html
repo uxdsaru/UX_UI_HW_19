@@ -32,12 +32,24 @@
         </header>
 
 
-        <div class="Intro"> 
+        <div class="Intro">
             <img src="Images/Saru.png" alt="Saru Arora" class="abc">
             <h2 class="blue"> Hi there, I'm Saru! <br>
-            User Experience | Interaction Designer </h2>
-            <p id="section1"> A self-driven digital designer focused on designing great user experiences for <br>brands to increase loyalty.</p>
-            <button class="outline"> Read More </button>
+                User Experience | Interaction Designer </h2>
+            <p id="section1"> A self-driven digital designer focused on designing great user experiences for <br>brands
+                to increase loyalty.</p>
+
+            <!-- animated button -->
+            <div class="center">
+                <button class="outline">
+                    <svg width="190px" height="55px" viewBox="0 0 190 55" class="border">
+                        <polyline points="189,1 189,54 1,54 1,1 189,1" class="bg-line" />
+                        <polyline points="189,1 189,54 1,54 1,1 189,1" class="hl-line" />
+                    </svg>
+                    <span>Read More</span>
+                </button>
+            </div>
+            <!-- end of animated button -->
         </div>
 
 
@@ -48,8 +60,10 @@
         </div>
 
 
-        <div class="arrow bounce">
-            <img src="Images/Down Chevron.png" alt="Arrow">
+        <div class="arrow bounce"> 
+            <a href="#goDown">
+                <img src="Images/Down Chevron.png" alt="Arrow">
+            </a>
         </div>
 
 
@@ -58,6 +72,7 @@
 
 
     <!-- UX Skills Section constructed using FLEX -->
+    <a id="goDown"></a>
     <section class="section2">
 
         <div id="desc" class="title">
