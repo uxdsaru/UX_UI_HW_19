@@ -21,7 +21,7 @@ $(".grow").mouseover(function(){
 
 
 
-// Intersection Observer (Lazy Loading My Skills & My Works)
+// Intersection Observer (Lazy Loading of My Skills & My Works)
 const faders = document.querySelectorAll(".fade-in");
 
 const appearOptions = {
