@@ -23,6 +23,7 @@ header{
 img[src*="Images/Logo.png"], img[src*="Images/home.png"]{
     margin-top: 2.5%;
     padding-left: 5%;
+    height: 50px;
 }
 
 .top_nav{
