@@ -389,6 +389,11 @@ background-color: #EFE6DD;
     box-shadow: 0 0 10px #23395B;
 }
 
+.alink{
+    text-decoration: none;
+    color: inherit;
+}
+
 .summary{
     padding-left: 13%;
     display: flex;
